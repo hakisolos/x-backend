@@ -12,5 +12,8 @@
   "dependencies": {
     "hono": "^4.9.2",
     "nodemailer": "^7.0.5"
+  },
+  "scripts": {
+    "start": "bun index.ts"
   }
 }

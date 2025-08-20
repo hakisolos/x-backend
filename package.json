@@ -1,0 +1,16 @@
+{
+  "name": "x-backend",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "hono": "^4.9.2",
+    "nodemailer": "^7.0.5"
+  }
+}

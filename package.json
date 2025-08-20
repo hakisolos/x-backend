@@ -14,7 +14,7 @@
     "nodemailer": "^7.0.5"
   },
   "scripts": {
-    "start": "pm2 start index.js --name x && pm2 logs x",
+    "start": "pm2 start index.ts --name x && pm2 logs x",
      "stop": "pm2 stop all"
   }
 }
